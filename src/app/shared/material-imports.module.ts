@@ -7,6 +7,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatInputModule,
     MatListModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatGridListModule
   ]
 })
 export class MaterialImportsModule { }
