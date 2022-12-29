@@ -2,15 +2,12 @@
   <div class="container-fluid">
 
     <div class="navbar col-4">
-      <h2 a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
-        <mat-icon class="me-2">home</mat-icon>Home
-      </h2>
-  
-      <a class="nav-link" href="#" routerLink='about'>Sobre</a>
-      <a class="nav-link" href="#">Contato</a>
-      <a class="nav-link" href="#">Currículo</a>
-      <a class="nav-link" href="#">Portfólio</a>
-  
+      <mat-icon routerLink="/">home</mat-icon>
+      <a class="navbar-brand" routerLink="/">Home</a>
+      <a class="nav-link" routerLink="/about">Sobre</a>
+      <a class="nav-link" routerLink="contact">Contato</a>
+      <a class="nav-link" routerLink="curriculum">Currículo</a>
+      <a class="nav-link" routerLink="portfolio">Portfólio</a>
     </div>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -25,7 +22,9 @@
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
+
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">
               Inicio</a>

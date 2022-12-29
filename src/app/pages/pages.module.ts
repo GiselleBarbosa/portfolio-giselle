@@ -22,13 +22,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
         CommonModule,
         ComponentsModule,
         SharedModule,
-    ],
-    exports: [
-        HomeComponent,
-        AboutComponent,
-        ContactComponent,
-        CurriculumComponent,
-        PortfolioComponent
     ]
+   
 })
 export class PagesModule { }
