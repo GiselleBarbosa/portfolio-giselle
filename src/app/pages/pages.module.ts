@@ -1,23 +1,34 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { ComponentsModule } from '../components/components.module';
+import { SharedModule } from '../shared/shared/shared.module';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { CurriculumComponent } from './curriculum/curriculum.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './home/about/about.component';
-import { ContactComponent } from './home/contact/contact.component';
-import { CurriculumComponent } from './home/curriculum/curriculum.component';
-import { PortfolioComponent } from './home/portfolio/portfolio.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 
 @NgModule({
-  declarations: [
-    HomeComponent,
-    AboutComponent,
-    ContactComponent,
-    CurriculumComponent,
-    PortfolioComponent,
-  ],
-  imports: [
-    CommonModule
-  ]
+    declarations: [
+        HomeComponent,
+        AboutComponent,
+        ContactComponent,
+        CurriculumComponent,
+        PortfolioComponent
+    ],
+    imports: [
+        CommonModule,
+        ComponentsModule,
+        SharedModule,
+    ],
+    exports: [
+        HomeComponent,
+        AboutComponent,
+        ContactComponent,
+        CurriculumComponent,
+        PortfolioComponent
+    ]
 })
 export class PagesModule { }
