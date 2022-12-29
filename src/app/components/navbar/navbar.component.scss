@@ -1,0 +1,39 @@
+.navbar {
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+.navbar {
+  cursor: pointer;
+  background-color: #3f51b5;
+  color: white;
+}
+
+.navbar-toggler {
+  color: #c5cae9;
+  border: 0.2px;
+}
+
+.navbar-toggler:hover {
+  color: #d3d5e0;
+  border: 0.2rem;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .btn-mat {
+    display: none;
+  }
+  .visible {
+    display: block;
+  }
+}
+
+@media (min-width: 500px) {
+  .visible {
+    display: none;
+  }
+}

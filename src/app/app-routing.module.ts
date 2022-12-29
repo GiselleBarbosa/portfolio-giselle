@@ -8,19 +8,12 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 
 
 const routes: Routes = [
-  
-  {
-    path: 'pages',
-    loadChildren: () => import('./pages/pages.module')
-      .then(m => m.PagesModule)
-  },
-
   { path: '', pathMatch: 'full', redirectTo: 'home' },
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'curriculum', component: CurriculumComponent },
-  { path: 'portfolio', component: PortfolioComponent },
+  { path: 'portfolio', component: PortfolioComponent }
 ];
 
 @NgModule({
