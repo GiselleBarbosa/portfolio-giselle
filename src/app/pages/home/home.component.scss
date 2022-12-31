@@ -10,7 +10,7 @@
 .giselle-photo {
   width: 100%;
   border-radius: 50%;
-  opacity: .8;
+  opacity: .9;
   transition: .8s;
 }
 
@@ -31,13 +31,6 @@
 .title {
   font-size: 4rem;
   color: #5a5a5a;
-  transition: 1s;
-
-}
-.title:hover {
-  font-size: 4rem;
-  color: #636262;
-  text-shadow: 2px 3px 6px #afaeae;
 }
 
 .subtitle {
@@ -45,11 +38,6 @@
   font-size: 1.4rem;
   font-weight: 100;
   color: #494848;
-  transition: .9s;
-}
-
-.subtitle:hover {
-  color: #636262;
 }
 
 @media (max-width: 640px) {
