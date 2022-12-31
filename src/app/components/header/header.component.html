@@ -1,0 +1,96 @@
+<mat-toolbar class="mat-elevation-z15 mb-3" color="primary">
+
+      <button class="navbar btn-mat-home visible me-3" mat-flat-button color="primary" routerLink="/"><mat-icon
+          class="me-3">home</mat-icon>Home</button>
+      <button class="btn-mat" mat-flat-button color="primary" routerLink="about">About</button>
+      <button class="btn-mat" mat-flat-button color="primary" routerLink="curriculum">Curriculum</button>
+      <button class="btn-mat" mat-flat-button color="primary" routerLink="portfolio">Portfolio</button>
+      <button class="btn-mat" mat-flat-button color="primary" routerLink="contact">Contact</button>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+    aria-controls="offcanvasNavbar">
+    <mat-icon>density_small</mat-icon>
+  </button>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Welcome!</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/">
+            Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="curriculum">Curriculum</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="portfolio">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+</mat-toolbar> 
+
+<!-- <div class="navbar bg-body-primary fixed-top mat-elevation-z8">
+  <div class="container-fluid">
+    <div class="navbar">
+      <button class="navbar-brand btn-mat visible me-3" mat-flat-button color="primary" routerLink="/"><mat-icon
+          class="me-3">home</mat-icon>Home</button>
+      <button class="btn-mat" mat-flat-button color="primary" routerLink="about">About</button>
+      <button class="btn-mat" mat-flat-button color="primary" routerLink="curriculum">Curriculum</button>
+      <button class="btn-mat" mat-flat-button color="primary" routerLink="portfolio">Portfolio</button>
+      <button class="btn-mat" mat-flat-button color="primary" routerLink="contact">Contact</button>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar">
+      <mat-icon>density_small</mat-icon>
+    </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Welcome!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/">
+              Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="curriculum">Curriculum</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="portfolio">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>  -->

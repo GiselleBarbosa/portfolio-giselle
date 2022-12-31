@@ -10,7 +10,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
-import { NavbarComponent } from "./components/navbar/navbar.component";
+import { HeaderComponent } from "./components/header/header.component";
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
         ContactComponent,
         PortfolioComponent,
         CurriculumComponent,
-        NavbarComponent
+        HeaderComponent,
+        FooterComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
